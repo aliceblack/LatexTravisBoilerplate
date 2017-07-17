@@ -5,13 +5,13 @@ before_install:
 - sudo apt-get install texlive-latex-base
 script:
 - mkdir build
-- pdflatex -output-directory build ./tex/*.tex
+- pdflatex -output-directory build tex/*.tex
 deploy:
   provider: releases
   api_key:
     secure:
   file:
-    - build/root.pdf
+    - build/*.pdf
   skip_cleanup: true
   on:
     tags: true
