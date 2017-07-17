@@ -6,6 +6,8 @@ before_install:
 script:
 - mkdir build
 - pdflatex -output-directory build main.tex
+before_deploy:
+- git fetch --tags
 deploy:
   provider: releases
   api_key:
