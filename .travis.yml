@@ -5,7 +5,7 @@ before_install:
 - sudo apt-get install texlive-latex-base
 script:
 - mkdir build
-- pdflatex -output-directory build tex/root.tex
+- pdflatex -output-directory build root.tex
 deploy:
   provider: releases
   api_key:
