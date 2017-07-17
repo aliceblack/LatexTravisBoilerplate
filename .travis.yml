@@ -1,10 +1,11 @@
 sudo: true
+dist: trusty
 before_install:
 - sudo apt-get update -qq
 - sudo apt-get install texlive-latex-base
 script:
 - mkdir build
-- pdflatex -output-directory build root.tex
+- pdflatex -output-directory build tex/*.tex
 deploy:
   provider: releases
   api_key:
