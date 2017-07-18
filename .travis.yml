@@ -15,3 +15,4 @@ deploy:
   file: build/*.pdf
   on:
     repo: aliceblack/LatexTravisBoilerplate
+    tags: true
