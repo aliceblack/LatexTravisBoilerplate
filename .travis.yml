@@ -13,6 +13,7 @@ deploy:
   api_key:
     secure: BhmW61inwUfn3E56Ko9MBtWq8q57zIJYfCnczJgyGIqB7VGNxd5jNFQGT70kgnOJyjYTGb2zg95YodrfiewOQCoV48ipE2xm7lQ8fRANiOyAOuN/1fp+qhdI38s4ay/qaPVpEbNocFvq8yiSxq2J8JQKBj3Dxt/I+siXIBLjLVRvfskXRm4BeWSTonscOm5jnRqVLHNVbGNDIzImpZCA4rqrVHjlCDtrYfevs/ucjljR0NP6Io2V3g8tF8q8LJAzZ+Dk9QvewaQDxFc1DVVPZgjfiaqshvbSdS6FTwNuWnlTkaOwq87qANzLnPUw+zFcU0ZL36WvZ944wZ1Qp26KLzFyEfxs7nTlKK9wQ5ISUSuJ6JGsRPIpt1N4g+DFdF6LJX5Zd0iOpdNm/gq0q6vOFWj6eg3T8HwtlAdo/twyZ9e/0HRkZFhuQtYYKXmInk5/bTjaHI9dfQkyIdDAcq3Z4WTXEW3PdX9Ws6H9cxpFzCtIRJR5cvokfgv0vFUJv1jJ+C+fvj/KHNbwj5bdXyhK6fezkcty0h1jb+D2PJCci18jmIed0PjsKXDO1Y78agpe+ofWKe7B58TpbKz7BiXw22yOSRjRhC4fKSbiBmf4IQ4/fudXd6SQiCP/Cp330AqtNl6qyuuQDSABoCp1TdTD685u4WvdOuI4YJjBHhPOLlI=
   file: build/*.pdf
+  all_branches: true
   on:
     repo: aliceblack/LatexTravisBoilerplate
     tags: true
