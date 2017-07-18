@@ -8,6 +8,7 @@ script:
 - pdflatex -output-directory build main.tex
 before_deploy:
 - git fetch --tags
+- git push origin HEAD:master --force
 deploy:
   provider: releases
   api_key:
