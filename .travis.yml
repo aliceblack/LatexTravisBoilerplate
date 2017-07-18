@@ -11,10 +11,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure:
-  file:
-    - build/*.pdf
-  skip_cleanup: true
+    secure: jzRjqPMalo0xc6HTsWJwjXoDbJyBCE/Ia7yVrgQq4DAsd4qVFGoCsl8IpjdvNmeGd/PU6Ca7GApb9yi3avqmzUnSVHGTnTGigiBuZm7aNEeVXpBMDSdnTr0CudvLa/WCS12NvuarqPRW7VOV3w7vyHBp76Hl2XAfjG9ZnsfTw2Dmzmyoih7E71j4k3eHNlwpNoWweVIkX5auv3NkM5fdckQzfJsE4rMZYJsombN/X6aA5hCwdPpndrDhVyriiTMlVLXbprWKfIG9hVYlFwdvsXQX6oT3aroIcnjDFjSzr4x50xB5vPO9+M1ZDD3peYC6AbEFgnkVHzJBpHS8bdpDEBqUvcUOYi7+TFc6r1z3lM0ojW/r6ZJ40pJjqQI+g87MlS3f89abLaa9QM2zgnBh0aweUio2gzm7IIgTCu6U6+tJoSBExizFNKXpltP4U03b5uK4jISsxginzwEr9tbaQToyzZsBDgHaCbQLgXe/lKNdV5eenq+rpusjY339f/8+U++ohM3EJ1JI/H2JVQ0W4PFv6idlVotzEjHkQM4y5JuQltIAZcoOIWGkzgQi+T11Lpeyqzj0ThTjO2Rr/YBJkJs0VDqBLsBK6tNKwAYIhK6pkQ+o9qL2hj0DeqI6O0qkhDbqxAQP0E01jOHxGRBcBo33AwoqecPuSLmV3S1N1hk=
+  file: "*"
   on:
-    tags: true
     repo: aliceblack/LatexTravisBoilerplate
