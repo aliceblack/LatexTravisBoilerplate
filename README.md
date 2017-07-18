@@ -1,2 +1,2 @@
 # LatexTravisBoilerplate
-latext to pdf
+Latext to pdf 
