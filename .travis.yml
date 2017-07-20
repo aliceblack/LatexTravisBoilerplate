@@ -7,6 +7,7 @@ script:
 - mkdir build
 - pdflatex -output-directory build main.tex
 before_deploy:
+- git checkout -b master
 - git fetch --tags
 deploy:
   provider: releases
